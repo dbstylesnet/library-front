@@ -1,7 +1,5 @@
 # Library Front-end
-Application consumes provided Rest API which serves sets of Books.  
-API accepts: page, itemsPerPage and filters parameters (search query).  
-Features router-dom's history and allows user to query results from url: /?p={page_number}.  
+The app uses React Router (react-router-dom) for navigation and synchronizes UI state with the URL. Pagination state is reflected in the query string (e.g., /?p={page_number}), allowing users to share URLs and return directly to specific result pages. 
 
 ## Tech stack
 * React (hooks)
